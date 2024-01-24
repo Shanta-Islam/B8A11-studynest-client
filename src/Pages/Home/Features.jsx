@@ -1,38 +1,40 @@
-
+import { FaLayerGroup, FaLifeRing, FaThinkPeaks, FaVideo } from "react-icons/fa6";
 
 const Features = () => {
     return (
         <div className="my-24 flex gap-12 flex-col xl:flex-row">
             <div className="grid gap-4  md:grid-cols-2 xl:grid-cols-2 flex-1">
                 <div className="card w-3/4 xl:w-72 bg-[#7B67F6] text-white shadow-xl border p-10 mx-auto rounded-none xl:m-5">
-                    <figure className="mx-auto text-white"><img src='https://i.ibb.co/sPB6H2h/images.png' alt="icon" width={50} height={50} /></figure>
+                    {/* <figure className="mx-auto text-white"><img src='https://i.ibb.co/sPB6H2h/images.png' alt="icon" width={50} height={50} /></figure> */}
+                    <figure className="mx-auto text-white"><FaLayerGroup className="text-5xl" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold text-center">
-                            Assignment creation
+                            Self Development
                         </h2>
                     </div>
                 </div>
                 <div className="card w-3/4 xl:w-72 bg-[#7B67F6] text-white shadow-xl border p-10 mx-auto rounded-none">
-                    <figure className="mx-auto text-white"><img src='https://i.ibb.co/dMk0LDM/image.png' alt="icon" width={50} height={50} /></figure>
+                    {/* <figure className="mx-auto text-white"><img src='https://i.ibb.co/dMk0LDM/image.png' alt="icon" width={50} height={50} /></figure> */}
+                    <figure className="mx-auto text-white"><FaVideo className="text-5xl"/></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold text-center">
-                        Online Assignment & Check Marks
+                            Remote Learning
                         </h2>
                     </div>
                 </div>
                 <div className="card w-3/4 xl:w-72 bg-[#7B67F6] text-white shadow-xl border p-10 mx-auto rounded-none ">
-                    <figure className="mx-auto text-white"><img src='https://i.ibb.co/d6P45jq/images-1-1.png' alt="icon" width={50} height={50} /></figure>
+                    <figure className="mx-auto text-white"><FaLifeRing className="text-5xl" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold text-center">
-                        Asynchronous Learning
+                            Lifetime Support
                         </h2>
                     </div>
                 </div>
                 <div className="card w-3/4 xl:w-72 bg-[#7B67F6] text-white shadow-xl border p-10 mx-auto rounded-none xl:m-5">
-                    <figure className="mx-auto text-white"><img src='https://i.ibb.co/C7g172h/images-1.png' alt="icon" width={50} height={50} /></figure>
+                    <figure className="mx-auto text-white"><FaThinkPeaks className="text-5xl" /></figure>
                     <div className="card-body">
                         <h2 className="text-xl font-bold text-center">
-                        Critical Thinking Skills
+                            Critical Thinking Skills
                         </h2>
                     </div>
                 </div>
